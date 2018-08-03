@@ -152,25 +152,25 @@ For BigQuery, I added 4 different charts:
 
     I added 2 different metrics to this chart including both the stored and uploaded dataset sizes.
 
-    Stored dataset size 
+    1. Stored dataset size 
 
-    1.  Resource Type: bigquery_dataset
-    1.  Metric: stored bytes
-    1.  Filter by: dataset_id = ic_filtered_content
-    1.  Group By: dataset_id
-    1.  Aggregation: sum
+        1.  Resource Type: bigquery_dataset
+        1.  Metric: stored bytes
+        1.  Filter by: dataset_id = ic_filtered_content
+        1.  Group By: dataset_id
+        1.  Aggregation: sum
 
-![BigQuery stored/uploaded dataset sizes](/images/chart_bigquery_stored_bytes.png)
+    2. Uploaded dataset size
 
-    Uploaded dataset size
+        1.  Resource Type: bigquery_dataset
+        1.  Metric: stored bytes
+        1.  Filter by: dataset_id = ic_filtered_content
+        1.  Group By: dataset_id
+        1.  Aggregation: sum
 
-    1.  Resource Type: bigquery_dataset
-    1.  Metric: stored bytes
-    1.  Filter by: dataset_id = ic_filtered_content
-    1.  Group By: dataset_id
-    1.  Aggregation: sum
+![BigQuery stored dataset sizes](/images/chart_bigquery_storage_uploaded_bytes.png)
 
-![BigQuery stored/uploaded dataset sizes](/images/chart_bigquery_storage_uploaded_bytes.png)
+![BigQuery stored dataset sizes](/images/chart_bigquery_stored_bytes.png)
 
 
 2.  Uploaded rows
