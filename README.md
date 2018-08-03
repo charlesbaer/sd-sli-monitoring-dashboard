@@ -90,7 +90,7 @@ For Cloud Storage, I was interested in the request rate, the number of objects a
     1.  Group By: bucket_name
     1.  Aggregation: sum
 
-![Cloud Storage sent bytes](/images/chart_cloud_storage_sent_bytes.pngD)
+![Cloud Storage sent bytes](/images/chart_cloud_storage_sent_bytes.png)
 
 
 Taken all together, the Cloud Storage charts appeared as shown in the screenshot below.
@@ -191,7 +191,7 @@ For BigQuery, I added 4 different charts:
     1.  Aggregation: sum
 
 
-![BigQuery billed bytes](/images/?chart_bigquery_uploaded_bytes.png)
+![BigQuery billed bytes](/images/chart_bigquery_uploaded_bytes.png)
 
 4.  Query execution time
     1.  Resource Type: global
