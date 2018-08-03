@@ -39,7 +39,7 @@ There are many different metrics for Pub/Sub both for topics and subscriptions. 
 
 4. Published message operation count
     1. Resource Type: pubsub_topic
-    2. Metric: number of unacknowledged messages
+    2. Metric: published message operations
     3. Group By: topic_id
     4. Aggregation: sum
     
@@ -168,9 +168,9 @@ For BigQuery, I added 4 different charts:
         1.  Group By: dataset_id
         1.  Aggregation: sum
 
-![BigQuery stored dataset sizes](/images/chart_bigquery_storage_uploaded_bytes.png)
-
 ![BigQuery stored dataset sizes](/images/chart_bigquery_stored_bytes.png)
+
+![BigQuery stored dataset sizes](/images/chart_bigquery_storage_uploaded_bytes.png)
 
 
 2.  Uploaded rows
